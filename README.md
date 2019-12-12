@@ -2,8 +2,7 @@
 
 Token Temporaneo di Sconto è un token ERC20.
 
-## TTSToken.sol
-
+## `TTSToken.sol`
 `TTSToken.sol` in `./contracts` implementa i seguenti contratti di OpenZeppelin:
     - `ERC20`
     - `ERC20Detailed`
