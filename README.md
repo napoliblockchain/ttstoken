@@ -18,6 +18,7 @@ Il token segue le specifiche in [EIP-20](https://github.com/ethereum/EIPs/blob/m
 
 ```
 npm install -g truffle
+npm install truffle-privatekey-provider @openzeppelin/contracts@2.4.0 
 npm install 
 ```
 
@@ -25,6 +26,6 @@ Sarà poi necessario modificare il file `truffle-config.js` ed inserire i giusti
 
 ```
 truffle compile
-truffle migrate --network private
+truffle migrate --network private --skipDryRun
 ```
 
